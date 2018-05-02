@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400,700');
+ul.Catogeries {
+  padding: 0;
+}
+
+ul.Catogeries li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+ul.Catogeries li a {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #1e1e1e;
+  display: block;
+  cursor: pointer;
+  padding: 3px 0;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+ul.Catogeries li a:hover {
+  color: #f60;
+}
